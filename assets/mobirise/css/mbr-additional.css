@@ -720,7 +720,7 @@ section.lazy-placeholder:after {
 @showSubTitle: false;
 @showText: true;
 @showButtons: false;
-@uname__12: "file:///C:/Users/antde/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-04_153520/assets/images/imagotipo-1-500x500.jpg";
+@uname__12: "file:///C:/Users/antde/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-04_181656/assets/images/imagotipo-1-500x500.jpg";
 @uname__13: true;
 @uname__14: #073b4c;
 @bg-value: "";
@@ -851,10 +851,10 @@ H4 {
 @alignBtn: "1";
 @reverseContent: false;
 @mediaSize: 50;
-@uname__11: "file:///C:/Users/antde/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-04_153520/assets/images/mbr-2-1920x1280.jpg";
+@uname__11: "file:///C:/Users/antde/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-04_181656/assets/images/mbr-2-1920x1280.jpg";
 @uname__12: true;
 @uname__13: #ff7f1f;
-@bg-value: "file:///C:/Users/antde/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-04_153520/assets/images/mbr-2-1920x1280.jpg";
+@bg-value: "file:///C:/Users/antde/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-05-04_181656/assets/images/mbr-2-1920x1280.jpg";
 @bg-type: "image";
 @bg-color-value: #ff7f1f;
 @bg-parallax: true;
@@ -1066,6 +1066,53 @@ padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
 background-color: @bgColor;
 .mbr-section-subtitle {
+  color: #767676;
+}
+}
+
+.cid-rY3vrazArX {
+@paddingTop: 4;
+@paddingBottom: 4;
+@mediaSize: 60;
+@reverseContent: false;
+@bgColor: #ffffff;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+& when not (@reverseContent) {
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-right: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .mbr-figure {
+      padding-bottom: 1rem;
+    }
+  }
+}
+& when (@reverseContent) {
+  .media-container-row {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+  }
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-left: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .media-container-row {
+      flex-wrap: wrap-reverse;
+      -webkit-flex-wrap: wrap-reverse;
+    }
+    .mbr-figure {
+      padding-top: 1rem;
+    }
+  }
+}
+.mbr-text {
   color: #767676;
 }
 }
